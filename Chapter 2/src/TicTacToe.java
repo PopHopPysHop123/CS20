@@ -7,7 +7,6 @@ Purpose:
 Author: Li Tan, 
 School: CHHS
 Course: Computer Programming 20
- 
 
 */
 public class TicTacToe
