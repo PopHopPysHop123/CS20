@@ -1,7 +1,7 @@
 package skill_building;
 /*
 
-Program: Distance_part1.java          Last Date of this Revision: September 13, 2022
+Program: Distance_part1.java          Last Date of this Revision: September 14, 2022
 
 Purpose: Calculate and display the total distance of a race with three segments.
 
