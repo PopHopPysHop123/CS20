@@ -21,6 +21,7 @@ public class RectanglePerimeter
 		
 		int P = (l*2) + (w*2);//calculates the perimeter and records it as "P" (perimeter)
 		
+		
 		System.out.println("The perimeter of the rectangle is " + P +".");//displays the perimeter
 
 	}
@@ -28,4 +29,5 @@ public class RectanglePerimeter
 }
 /* Screen Dump
 The perimeter of the rectangle is 34.
+
 */
