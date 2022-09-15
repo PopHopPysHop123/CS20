@@ -3,7 +3,7 @@ package skill_building;
 
 Program: Digits.java          Last Date of this Revision: September 14, 2022
 
-Purpose: Ask the user for a two-digit number and display the ones-place and tens-place digits.
+Purpose: Prompt for a two-digit number and display the ones-place and tens-place digits.
 
 Author: Li Tan, 
 School: CHHS
@@ -17,7 +17,7 @@ public class Digits
 	public static void main(String[] args)
 	{
 		@SuppressWarnings("resource")
-		Scanner userinput = new Scanner(System.in);
+		Scanner userinput = new Scanner(System.in);//creates a scanner object
 		
 		int user_num = 0;//creates an int for the user's #
 		

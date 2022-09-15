@@ -3,7 +3,7 @@ package skill_building;
 
 Program: Distance_part2.java          Last Date of this Revision: September 14, 2022
 
-Purpose: Prompt the user for the distance of each race segment and calculate and display the total distance.
+Purpose: Prompt for the distance of each race segment and calculate and display the total distance.
 
 Author: Li Tan, 
 School: CHHS
@@ -17,7 +17,7 @@ public class Distance_part2
 	public static void main(String[] args) 
 	{ 
 		@SuppressWarnings("resource")
-		Scanner userinput = new Scanner(System.in);
+		Scanner userinput = new Scanner(System.in);//creates a scanner object
 		
 		double first = 0;//creates a double for the first segment
 		
