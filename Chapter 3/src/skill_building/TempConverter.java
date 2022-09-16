@@ -17,7 +17,7 @@ public class TempConverter
 	public static void main(String[] args)
 	{
 		@SuppressWarnings("resource")
-		Scanner userinput = new Scanner(System.in);//creates a scanner object
+		Scanner userinput = new Scanner(System.in);//creates a scanner object for the input
 
 		int F_temp = 0;//create an int for the Fahrenheit temp.
 		
@@ -25,9 +25,9 @@ public class TempConverter
 		
 		F_temp = userinput.nextInt();//records the input as "F_temp"
 		
-		double C_temp = Math.round((((double)F_temp - 32) * 5 / 9)*10.0)/10.0;//calculates the corresponding Celsius temp.
+		double C_temp = Math.round((((double)F_temp - 32) * 5 / 9) * 10.0) / 10.0;//calculates corresponding Celsius temp.
 		
-		System.out.println("\rThe corresponding Celsius temperature is " + C_temp + "°C.");//displays the Celsius temp.
+		System.out.println("\rThe corresponding Celsius temperature is " + C_temp + "°C.");//displays Celsius temp.
 		
 	}
 

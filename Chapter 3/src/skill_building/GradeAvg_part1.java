@@ -17,7 +17,7 @@ public class GradeAvg_part1
 	public static void main(String[] args)
 	{
 		@SuppressWarnings("resource")
-		Scanner userinput = new Scanner(System.in);//creates a scanner object
+		Scanner userinput = new Scanner(System.in);//creates a scanner object for the input
 		
 		int g1 = 0;//creates an int for the 1st grade
 		
@@ -49,9 +49,9 @@ public class GradeAvg_part1
 		
 		g5 = userinput.nextInt();//records the input as "g5"
 		
-		double g_avg = Math.round(((g1 + g2 + g3 + g4 + g5) / (double)5)*1.0)/1.0;//calculates the average
+		double g_avg = Math.round(((g1 + g2 + g3 + g4 + g5) / (double)5) * 1.0) / 1.0;//calculates average
 		
-		System.out.println("\rYour grade average is " + g_avg + "%.");//displays the grade average
+		System.out.println("\rYour grade average is " + g_avg + "%.");//displays grade average
 	}
 
 }

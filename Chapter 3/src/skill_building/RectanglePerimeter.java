@@ -19,10 +19,10 @@ public class RectanglePerimeter
 		
 		int l = 13;//records 13 as "l" (length)
 		
-		int P = (l*2) + (w*2);//calculates the perimeter and records it as "P" (perimeter)
+		int P = (l * 2) + (w * 2);//calculates perimeter
 		
 		
-		System.out.println("The perimeter of the rectangle is " + P +".");//displays the perimeter
+		System.out.println("The perimeter of the rectangle is " + P +".");//displays perimeter
 
 	}
 

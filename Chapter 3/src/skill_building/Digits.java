@@ -17,7 +17,7 @@ public class Digits
 	public static void main(String[] args)
 	{
 		@SuppressWarnings("resource")
-		Scanner userinput = new Scanner(System.in);//creates a scanner object
+		Scanner userinput = new Scanner(System.in);//creates a scanner object for the input
 		
 		int user_num = 0;//creates an int for the user's #
 		
@@ -25,11 +25,11 @@ public class Digits
 		
 		user_num = userinput.nextInt();//records the input as "user_num"
 		
-		int tens = user_num / 10;//calculates the tens-place digit
+		int tens = user_num / 10;//calculates tens-place digit
 		
-		int ones = user_num - (tens * 10); //calculates the ones-place digit
+		int ones = user_num - (tens * 10); //calculates ones-place digit
 
-		System.out.println("\rThe tens-place digit is " + tens + " and the ones-place digit is " + ones);//displays the digits
+		System.out.println("\rThe tens-place digit is " + tens + " and the ones-place digit is " + ones);//displays digits
 	
 	}
 

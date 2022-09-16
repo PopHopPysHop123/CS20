@@ -18,34 +18,36 @@ public class GradeAvg_part2
 	public static void main(String[] args)
 	{
 		@SuppressWarnings("resource")
-		Scanner userinput = new Scanner(System.in);//creates a scanner object
+		Scanner userinput = new Scanner(System.in);//creates a scanner object for the input
+		
+		int input = 0;//creates an int for the input
 		
 		int g = 0;//creates an int for the grade
 		
-		//for (let i = 0; i)
-		System.out.print("Please enter a grade: ");//prompts for a grade
+		for (int i = 0; i<5; i++)//repeats the code in brackets 5 times
+		{
+			System.out.print("Please enter a grade: ");//prompts for a grade
 		
-		g = userinput.nextInt();//records the input as "g"
+			input = userinput.nextInt();//records the input 
 		
-		g += g;
+			g += input;//adds the input to the grade
+		}
 		
-		//calculates the average
+		double g_avg = Math.round((((double)g / 5) / 100) * 100.0) / 100.0;//calculates average
 		
-		System.out.println("\rYour grade average is " + g + ".");//displays the grade average
+		NumberFormat percent = NumberFormat.getPercentInstance();//creates NumberFormat object for percents
+		
+		System.out.println("\rYour grade average is " + percent.format(g_avg) + ".");//displays grade average
 	}
 
 }
 /* Screen Dump
 Please enter a grade: 77
+Please enter a grade: 85
+Please enter a grade: 56
+Please enter a grade: 81
+Please enter a grade: 90
 
-Please enter another grade: 85
-
-Please enter another grade: 56
-
-Please enter another grade: 81
-
-Please enter another grade: 90
-
-Your grade average is 78.0%.
+Your grade average is 78%.
 
 */

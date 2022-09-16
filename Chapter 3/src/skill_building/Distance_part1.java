@@ -21,9 +21,9 @@ public class Distance_part1
 		
 		double third = 5.8;//records 5.8 as "third" (third segment)
 		
-		double total_d = Math.round((first + second + third)*100.0)/100.0;//calculates the total distance
+		double total_d = Math.round((first + second + third) * 100.0) / 100.0;//calculates total distance
 		
-		System.out.println("The race is " + total_d + "km long.");//displays the total distance
+		System.out.println("The race is " + total_d + "km long.");//displays total distance
 		
 	}
 

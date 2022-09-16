@@ -17,7 +17,7 @@ public class Distance_part2
 	public static void main(String[] args) 
 	{ 
 		@SuppressWarnings("resource")
-		Scanner userinput = new Scanner(System.in);//creates a scanner object
+		Scanner userinput = new Scanner(System.in);//creates a scanner object for the input
 		
 		double first = 0;//creates a double for the first segment
 		
@@ -37,9 +37,9 @@ public class Distance_part2
 		
 		third = userinput.nextDouble();//records the input as "third"
 		
-		double total_d = Math.round((first + second + third)*100.0)/100.0;//calculates the total distance
+		double total_d = Math.round((first + second + third) * 100.0) / 100.0;//calculates total distance
 		
-		System.out.println("\rThe race is going to be" + total_d + "km long.");//displays the total distance
+		System.out.println("\rThe race is going to be" + total_d + "km long.");//displays total distance
 		
 	}
 
